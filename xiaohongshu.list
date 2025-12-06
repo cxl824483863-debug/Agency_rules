@@ -1,0 +1,30 @@
+# creador：Liam
+# creadt time：2025-12-06 14:34
+
+# Xiaohongshu / 小红书
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xiaohongshu.net
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xhsapp.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhs.com
+DOMAIN-SUFFIX,notes-aliyun.com   # 官方阿里云资源域
+DOMAIN-SUFFIX,redcdn.net
+DOMAIN-SUFFIX,redbook.com        # 少数旧版本使用
+DOMAIN-SUFFIX,redapi.cn          # API 线路（部分地区）
+DOMAIN-SUFFIX,redbook.io         # 历史域名
+DOMAIN-SUFFIX,maimai.cn          # 登录链路依赖（部分情况）
+
+# 小红书 CDN / 图片 / 视频资源
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,ixigua.com        # 视频底层可能走火山
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,alicdn.com        # 阿里云图片资源
+DOMAIN-SUFFIX,aliyuncs.com
+
+# 兜底关键字
+DOMAIN-KEYWORD,xhs
+DOMAIN-KEYWORD,xiaohongshu
+DOMAIN-KEYWORD,redbook
+DOMAIN-KEYWORD,redcdn
