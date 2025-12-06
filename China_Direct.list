@@ -1,19 +1,13 @@
-# creator：Liam
-# create date：2025-12-06 12:39
+# ============================================================
+# China Apps + Website Mega RULE-SET (No DIRECT)
+# Author：Liam Chen
+# Create Time：2025-12-06 22:21
+# ============================================================
 
-DOMAIN-WILDCARD,www.gyg.*$
+DOMAIN-WILDCARD,www.gyg.*$         #无名小站
 DOMAIN-KEYWORD,processon.com
 DOMAIN-KEYWORD,hub.axmax.cn
-URL-REGEX,*.appstorrent.*$
-DOMAIN-WILDCARD,*.aijuli.com
-DOMAIN-WILDCARD,*.eastmoney.com
-
-# 国内直连(app)
-DOMAIN-WILDCARD,*.yuque.com
-DOMAIN-KEYWORD,aliyun.com
-DOMAIN-KEYWORD,amap.com
-DOMAIN-KEYWORD,qunar.com
-DOMAIN-KEYWORD,deepseek.com
+DOMAIN-WILDCARD,*.aijuli.com       #Ai零距离
 
 # 国内直连(工作系统)
 DOMAIN-KEYWORD,stage-wms2.thecopeservices.com
@@ -23,57 +17,163 @@ DOMAIN-KEYWORD,erp.thecopeservices.com
 DOMAIN-KEYWORD,pre-wms.ehengjian.com
 DOMAIN,www.tapd.cn
 
-# DingTalk
-DOMAIN-SUFFIX,dingtalk.com
-DOMAIN-SUFFIX,dingtalk.cn
-DOMAIN-SUFFIX,dingtalkapps.com
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,aliyun.com
+# --- 阿里系 ---
 DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,alibaba.com
-DOMAIN-KEYWORD,dingtalk
-DOMAIN-KEYWORD,ali
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,cainiaoyizhan.com
+DOMAIN-SUFFIX,cnicloud.com
+DOMAIN-SUFFIX,fliggy.com
+DOMAIN-SUFFIX,fliggy.hk
+DOMAIN-SUFFIX,quark.cn
+DOMAIN-SUFFIX,quark.com
+URL-REGEX,*.appstorrent.*$       #阿里巴巴矢量库
 
-# WeChat
+# --- 腾讯系 ---
+DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,wx.qq.com
-DOMAIN-SUFFIX,wximg.qq.com
-DOMAIN-SUFFIX,wxfile.qq.com
-DOMAIN-SUFFIX,wxapp.tc.qq.com
-DOMAIN-SUFFIX,idqqimg.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,video.qq.com
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-KEYWORD,wechat
-DOMAIN-KEYWORD,weixin
-
-# QQ
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qqmail.com
-DOMAIN-SUFFIX,mail.qq.com
-DOMAIN-SUFFIX,qzone.qq.com
 DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,gtimg.com
-DOMAIN-SUFFIX,gtimg.cn
 DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,idqqimg.com
-DOMAIN-SUFFIX,qqvideo.cn
-DOMAIN-SUFFIX,imqq.com
-DOMAIN-KEYWORD,qq
-DOMAIN-KEYWORD,tencent
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,work.weixin.qq.com
+DOMAIN-SUFFIX,workwechat.com
+DOMAIN-SUFFIX,wecomcdn.com
+DOMAIN-SUFFIX,voovmeeting.com
+DOMAIN-SUFFIX,meeting.tencent.com
+DOMAIN-SUFFIX,voovapp.cn
+DOMAIN-SUFFIX,yuanbao.tencent.com
+DOMAIN-SUFFIX,yuanbao.tech
+DOMAIN-SUFFIX,yuanbaoai.com
 
-# WPS
-DOMAIN-SUFFIX,wps.cn
-DOMAIN-SUFFIX,wps.com
-DOMAIN-SUFFIX,kingsoft.com
-DOMAIN-SUFFIX,ksosoft.com
-DOMAIN-SUFFIX,kdocs.cn
-DOMAIN-SUFFIX,mo.wpscdn.cn
-DOMAIN-SUFFIX,wpscdn.cn
-DOMAIN-SUFFIX,ks-cdn.com
-DOMAIN-KEYWORD,wps
-DOMAIN-KEYWORD,kingsoft
+# --- 字节系 ---
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytescm.com
+DOMAIN-SUFFIX,zijieapi.com
 
+# --- 京东系 ---
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,yiyaojd.com
 
+# --- 拼多多 ---
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,pddpic.com
 
+# --- 美团系 ---
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,dpfile.com
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,meituan.net
+
+# --- 饿了么 ---
+DOMAIN-SUFFIX,ele.me
+
+# --- 大众点评 ---
+DOMAIN-SUFFIX,dianping.com
+
+# --- 飞猪 ---
+DOMAIN-SUFFIX,alitrip.com
+
+# --- 顺丰 ---
+DOMAIN-SUFFIX,sf-express.com
+DOMAIN-SUFFIX,sf-airlines.com
+DOMAIN-SUFFIX,sf-international.com
+
+# --- 迅雷 ---
+DOMAIN-SUFFIX,xunlei.com
+
+# --- 高德地图 ---
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,a-map.cn
+
+# --- 百度 ---
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubce.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,bdstatic.com
+
+# --- Bilibili ---
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com
+
+# --- 抖音 ---
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,iesdouyin.com
+
+# --- QQ 音乐 ---
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX,music.qq.com
+
+# --- 虎牙 ---
+DOMAIN-SUFFIX,huya.com
+
+# --- 得物 ---
+DOMAIN-SUFFIX,dewu.com
+DOMAIN-SUFFIX,poizon.com
+
+# --- 网易系 ---
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,netease.com
+
+# --- 邮箱类 ---
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,aliyun.com
+
+# --- 银行类（通用） ---
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,bankcomm.com
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbimg.com
+
+# --- 微信 / 企业微信 / 腾讯会议 ---
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,work.weixin.qq.com
+DOMAIN-SUFFIX,voovmeeting.com
+
+# --- 12306 ---
+DOMAIN-SUFFIX,12306.cn
+
+# --- 航旅类 ---
+DOMAIN-SUFFIX,umetrip.com
+DOMAIN-SUFFIX,variflight.com
+DOMAIN-SUFFIX,hangban.cc
+
+# --- 去哪儿 ---
+DOMAIN-SUFFIX,qunar.com
+DOMAIN-SUFFIX,qunarzz.com
+DOMAIN-SUFFIX,qnimg.com
+
+# --- 天文通 ---
+DOMAIN-SUFFIX,twtw.cc
+DOMAIN-SUFFIX,twte.cn
+
+# --- 东方财富 ---
+DOMAIN-SUFFIX,eastmoney.com
+
+# --- 同花顺 ---
+DOMAIN-SUFFIX,10jqka.com.cn
+
+# --- 我 的 南京 ---
+DOMAIN-SUFFIX,nanjing.gov.cn
+DOMAIN-SUFFIX,jszwfw.gov.cn
+
+# --- DeepSeek 深度求索 ---
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.ai
+DOMAIN-SUFFIX,deepseekapi.com
