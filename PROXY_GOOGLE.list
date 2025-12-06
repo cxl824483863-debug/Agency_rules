@@ -1,4 +1,4 @@
-# Creadter：Liam
+# Creadtor：Liam
 # Creadt Date：2025-12-05 20:50
 
 DOMAIN-KEYWORD,google
@@ -11,3 +11,39 @@ DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,ggpht.com
+
+# Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD,tg
+
+# Instagram
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbanalytics.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,cdn.fbsbx.com
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,insta
+
+# TMDB
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,api.themoviedb.org
+DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,tmdb.pro
+DOMAIN-KEYWORD,tmdb
+DOMAIN-KEYWORD,themoviedb
