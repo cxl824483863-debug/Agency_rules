@@ -1,74 +1,167 @@
-# Creadtor：Liam
-# Creadt Date：2025-12-05 20:50
+# ============================================================
+# Global Website / Movie / Dev Sites Mega RULE-SET (Non-China)
+# Author：Liam Chen
+# Create Time：2025-12-06 22:32
+# ============================================================
 
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,goog
+# --- Google 系 / Gemini 相关 ---
+DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,x.company
+
+# --- YouTube ---
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ggpht.com
 
-# Telegram
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tg
+# --- Netflix ---
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflxso.net
 
-# Instagram
+# --- Disney+ ---
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,disney-plus.net
+
+# --- HBO / Max ---
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hbomax.com
+
+# --- Amazon Prime Video ---
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,media-amazon.com
+
+# --- Hulu ---
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+
+# --- Apple 系 ---
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+
+# --- Meta 系（Instagram / Facebook） ---
 DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbanalytics.com
 DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,m.me
-DOMAIN-SUFFIX,cdn.fbsbx.com
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,insta
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,whatsapp.com
 
-# TMDB
+# --- Telegram ---
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+
+# --- Twitter / X ---
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+
+# --- Reddit ---
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditstatic.com
+
+# --- TikTok (国际版) ---
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tik-tokapi.com
+
+# --- Twitch ---
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,ttvnw.net
+
+# --- OpenAI / ChatGPT ---
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# --- Github / Git 系 ---
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,bitbucket.org
+
+# --- Stack Overflow / 技术社区 ---
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,serverfault.com
+DOMAIN-SUFFIX,superuser.com
+DOMAIN-SUFFIX,askubuntu.com
+
+# --- 编程/学习网站 ---
+DOMAIN-SUFFIX,w3schools.com
+DOMAIN-SUFFIX,mdn.dev
+DOMAIN-SUFFIX,developer.mozilla.org
+DOMAIN-SUFFIX,freecodecamp.org
+DOMAIN-SUFFIX,codecademy.com
+DOMAIN-SUFFIX,geeksforgeeks.org
+DOMAIN-SUFFIX,tutorialspoint.com
+
+# --- 英文媒体 / 新闻 ---
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX,guardian.co.uk
+
+# --- 影视评分类 ---
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,imdb.to
+DOMAIN-SUFFIX,rottentomatoes.com
+DOMAIN-SUFFIX,metacritic.com
+DOMAIN-SUFFIX,trakt.tv
+DOMAIN-SUFFIX,letterboxd.com
+DOMAIN-SUFFIX,tmdb.org   # The Movie Database
 DOMAIN-SUFFIX,themoviedb.org
-DOMAIN-SUFFIX,api.themoviedb.org
-DOMAIN-SUFFIX,image.tmdb.org
-DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,tmdb.pro
-DOMAIN-KEYWORD,tmdb
-DOMAIN-KEYWORD,themoviedb
+DOMAIN-SUFFIX,fanart.tv
 
-# Yahoo
+# --- 流媒体播放器相关 ---
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,emby.media
+DOMAIN-SUFFIX,jellyfin.org
+DOMAIN-SUFFIX,kodi.tv
+
+# --- 云服务 / VPS / SaaS ---
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,digitalocean.com
+DOMAIN-SUFFIX,linode.com
+
+# --- 邮箱 ---
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN-SUFFIX,yahooapis.com
-DOMAIN-SUFFIX,mail.yahoo.com
-DOMAIN-SUFFIX,yimg.com
-DOMAIN-SUFFIX,yahoofs.com
-DOMAIN-SUFFIX,yahoofinanceapi.com
-DOMAIN-SUFFIX,yahoodns.net
-DOMAIN-SUFFIX,yahoomail.com
-DOMAIN-SUFFIX,yahoo.net
-DOMAIN-SUFFIX,yahoo.co.uk
-DOMAIN-SUFFIX,yahoo.com.cn
-DOMAIN-KEYWORD,yahoo
-DOMAIN-KEYWORD,yimg
 
-# Notion
+# --- Dropbox / Box ---
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,box.com
+DOMAIN-SUFFIX,boxcdn.net
+
+# --- Notion ---
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notion.site
-DOMAIN-SUFFIX,notionusercontent.com
-DOMAIN-SUFFIX,notion.com
-DOMAIN-SUFFIX,api.notion.com
 DOMAIN-SUFFIX,notion-static.com
-DOMAIN-KEYWORD,notion
+
+# --- 国际常用网站 ---
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,grammarly.comDOMAIN-KEYWORD,notion
