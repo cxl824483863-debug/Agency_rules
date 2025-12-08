@@ -3,12 +3,13 @@
 # ====================================
 
 # --- ERP系统 ---
+DOMAIN,port.thecopeservices.com
 DOMAIN,erp.thecopeservices.com
 DOMAIN,fb.thecopeservices.com
 DOMAIN,fb-v2.thecopeservices.com
 DOMAIN,uc.thecopeservices.com
 DOMAIN,bi.thecopeservices.com
-DOMAIN-SUFFIX,thecopeservices.com
+
 
 # --- 卡车系统 ---
 DOMAIN-SUFFIX,website.hyperlining.com
