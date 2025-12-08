@@ -1,0 +1,18 @@
+# =======================================
+# 工作系统测试环境
+# =======================================
+
+# --- 卡车测试 ---
+DOMAIN,stage-truck.thecopeservices.com
+
+# --- ERP测试 ---
+DOMAIN,stage-port.thecopeservices.com
+DOMAIN,stage-erp.thecopeservices.com
+DOMAIN,stage-fb.thecopeservices.com
+DOMAIN,stage-fb-v2.thecopeservices.com
+DOMAIN,stage-bi.thecopeservices.com
+DOMAIN,stage-uc.thecopeservices.com
+
+# --- WMS测试 ---
+DOMAIN,stage-acc-wms.thecopeservices.com
+DOMAIN,stage-wms2.thecopeservices.com
