@@ -88,8 +88,6 @@ DOMAIN-KEYWORD,acgvideo,China_Direct
 # 腾讯系
 ########################
 DOMAIN-KEYWORD,wechat,China_Direct
-DOMAIN-KEYWORD,wx,China_Direct
-DOMAIN-KEYWORD,qq,China_Direct
 DOMAIN-KEYWORD,qzone,China_Direct
 DOMAIN-KEYWORD,weixin,China_Direct
 DOMAIN-KEYWORD,wecom,China_Direct
