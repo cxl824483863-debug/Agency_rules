@@ -9,13 +9,13 @@
 DOMAIN-SUFFIX,limbopro.com,PROXY_LIAM
 
 # --- Google 系 / Gemini 相关 ---
-DOMAIN-SUFFIX,google.com,PROXY_LIAM
-DOMAIN-SUFFIX,googleapis.com,PROXY_LIAM
-DOMAIN-SUFFIX,gstatic.com,PROXY_LIAM
-DOMAIN-SUFFIX,googleusercontent.com,PROXY_LIAM
-DOMAIN-SUFFIX,withgoogle.com,PROXY_LIAM
-DOMAIN-SUFFIX,deepmind.com,PROXY_LIAM
-DOMAIN-SUFFIX,x.company,PROXY_LIAM
+# DOMAIN-SUFFIX,google.com,PROXY_LIAM
+# DOMAIN-SUFFIX,googleapis.com,PROXY_LIAM
+# DOMAIN-SUFFIX,gstatic.com,PROXY_LIAM
+# DOMAIN-SUFFIX,googleusercontent.com,PROXY_LIAM
+# DOMAIN-SUFFIX,withgoogle.com,PROXY_LIAM
+# DOMAIN-SUFFIX,deepmind.com,PROXY_LIAM
+#DOMAIN-SUFFIX,x.company,PROXY_LIAM
 
 # --- YouTube ---
 DOMAIN-SUFFIX,youtube.com,PROXY_LIAM
@@ -61,9 +61,9 @@ DOMAIN-SUFFIX,fbcdn.net,PROXY_LIAM
 DOMAIN-SUFFIX,whatsapp.com,PROXY_LIAM
 
 # --- Telegram ---
-DOMAIN-SUFFIX,telegram.org,PROXY_LIAM
-DOMAIN-SUFFIX,t.me,PROXY_LIAM
-DOMAIN-SUFFIX,tdesktop.com,PROXY_LIAM
+# DOMAIN-SUFFIX,telegram.org,PROXY_LIAM
+# DOMAIN-SUFFIX,t.me,PROXY_LIAM
+# DOMAIN-SUFFIX,tdesktop.com,PROXY_LIAM
 
 # --- Twitter / X ---
 DOMAIN-SUFFIX,x.com,PROXY_LIAM
