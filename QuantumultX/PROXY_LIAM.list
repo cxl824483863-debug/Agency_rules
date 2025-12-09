@@ -4,6 +4,10 @@
 # Create Time：2025-12-06 22:32
 # ============================================================
 
+
+# --- 去广告 ---
+DOMAIN-SUFFIX,limbopro.com,PROXY_LIAM
+
 # --- Google 系 / Gemini 相关 ---
 DOMAIN-SUFFIX,google.com,PROXY_LIAM
 DOMAIN-SUFFIX,googleapis.com,PROXY_LIAM
