@@ -79,10 +79,6 @@ DOMAIN-KEYWORD,toutiao,China_Direct
 DOMAIN-KEYWORD,kuaishou,China_Direct
 DOMAIN-KEYWORD,kuaishouapp,China_Direct
 
-# 小红书
-DOMAIN-KEYWORD,xiaohongshu,China_Direct
-DOMAIN-KEYWORD,redcdn,China_Direct
-
 # B站
 DOMAIN-KEYWORD,bilibili,China_Direct
 DOMAIN-KEYWORD,biliapi,China_Direct
