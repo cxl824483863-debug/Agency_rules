@@ -89,12 +89,64 @@ DOMAIN-SUFFIX,ele.me,China_Direct
 DOMAIN-SUFFIX,elemecdn.com,China_Direct
 
 
-# ===== 旅行平台 =====
-DOMAIN-SUFFIX,ctrip.com,China_Direct
-DOMAIN-SUFFIX,ctrip.cn,China_Direct
-DOMAIN-SUFFIX,qunar.com,China_Direct
-DOMAIN-SUFFIX,fliggy.com,China_Direct
+# ===== 旅行 / 票务 / 酒店 / 圆周旅迹 =====
 
+# China_Travel_Sites
+DOMAIN-SUFFIX,ctrip.com,China_Travel
+DOMAIN-SUFFIX,ctrip.hk,China_Travel
+DOMAIN-SUFFIX,ctrip.com.hk,China_Travel
+DOMAIN-SUFFIX,ctrip.cn,China_Travel
+DOMAIN-SUFFIX,qunar.com,China_Travel
+DOMAIN-SUFFIX,qunarzz.com,China_Travel
+DOMAIN-SUFFIX,fliggy.com,China_Travel
+DOMAIN-SUFFIX,alitrip.com,China_Travel
+DOMAIN-SUFFIX,tuniu.com,China_Travel
+DOMAIN-SUFFIX,tuniucdn.com,China_Travel
+DOMAIN-SUFFIX,ly.com,China_Travel
+DOMAIN-SUFFIX,tongcheng.com,China_Travel
+DOMAIN-SUFFIX,elong.com,China_Travel
+DOMAIN-SUFFIX,elongstatic.com,China_Travel
+DOMAIN-SUFFIX,lvmama.com,China_Travel
+DOMAIN-SUFFIX,lvmama.com.cn,China_Travel
+DOMAIN-SUFFIX,qyer.com,China_Travel
+DOMAIN-SUFFIX,qyerstatic.com,China_Travel
+DOMAIN-SUFFIX,mangocity.com,China_Travel
+DOMAIN-SUFFIX,aoyou.com,China_Travel
+DOMAIN-SUFFIX,uzai.com,China_Travel
+DOMAIN-SUFFIX,you.ctrip.com,China_Travel
+DOMAIN-SUFFIX,mafengwo.cn,China_Travel
+DOMAIN-SUFFIX,mafengwo.net,China_Travel
+DOMAIN-SUFFIX,youxiake.com,China_Travel
+DOMAIN-SUFFIX,youxiake.cn,China_Travel
+DOMAIN-SUFFIX,8pig.com,China_Travel
+DOMAIN-SUFFIX,lvmama.cn,China_Travel
+DOMAIN-SUFFIX,umetrip.com,China_Travel
+DOMAIN-SUFFIX,umetrip.net,China_Travel
+DOMAIN-SUFFIX,hanglvwang.com,China_Travel
+DOMAIN-SUFFIX,veryzhun.com,China_Travel
+DOMAIN-SUFFIX,veryzhun.net,China_Travel
+DOMAIN-SUFFIX,feeyo.com,China_Travel
+DOMAIN-SUFFIX,caissahk.com,China_Travel
+DOMAIN-SUFFIX,u-tour.com,China_Travel
+DOMAIN-SUFFIX,u-tour.cn,China_Travel
+DOMAIN-SUFFIX,toursforfun.com.cn,China_Travel
+DOMAIN-SUFFIX,eqxiu.com,China_Travel
+DOMAIN-SUFFIX,yikuair.com,China_Travel
+DOMAIN-SUFFIX,12306.cn,China_Travel
+DOMAIN-SUFFIX,railway12306.cn,China_Travel
+DOMAIN-SUFFIX,flightmanager.com,China_Travel
+DOMAIN-SUFFIX,feilv.com,China_Travel
+DOMAIN-SUFFIX,lushu.com,China_Travel
+DOMAIN-SUFFIX,dujia.qunar.com,China_Travel
+DOMAIN-SUFFIX,dida365.com,China_Travel
+DOMAIN-SUFFIX,dida.cn,China_Travel
+
+
+DOMAIN-SUFFIX,yuanjourney.com,China_Direct
+DOMAIN-SUFFIX,yuan360.com,China_Direct
+DOMAIN-SUFFIX,yuanzo.com,China_Direct
+DOMAIN-SUFFIX,yuanfangtrip.com,China_Direct
+DOMAIN-SUFFIX,travellingcircle.com,China_Direct
 
 # ===== 通信 / 运营商 =====
 DOMAIN-SUFFIX,139.com,China_Direct
@@ -156,6 +208,113 @@ DOMAIN-SUFFIX,vivo.com,China_Direct
 DOMAIN-SUFFIX,realme.com,China_Direct
 
 DOMAIN-SUFFIX,samsung.com,China_Direct
+
+
+# ===== 夸克浏览器 =====
+DOMAIN-SUFFIX,quark.cn,China_Direct
+DOMAIN-SUFFIX,quark.com,China_Direct
+DOMAIN-SUFFIX,quarkapp.com,China_Direct
+DOMAIN-SUFFIX,quarkbrowser.com,China_Direct
+DOMAIN-SUFFIX,myquark.cn,China_Direct
+DOMAIN-SUFFIX,quark-cdn.com,China_Direct
+DOMAIN-SUFFIX,quarksmob.com,China_Direct
+DOMAIN-SUFFIX,quarkimg.com,China_Direct
+DOMAIN-SUFFIX,quarkfiles.com,China_Direct
+DOMAIN-SUFFIX,quarksearch.com,China_Direct
+DOMAIN-SUFFIX,quarkshare.com,China_Direct
+
+
+# ===== UC浏览器 =====
+DOMAIN-SUFFIX,uc.cn,China_Direct
+DOMAIN-SUFFIX,uc123.com,China_Direct
+DOMAIN-SUFFIX,ucweb.com,China_Direct
+DOMAIN-SUFFIX,uczzd.cn,China_Direct
+DOMAIN-SUFFIX,uczzd.com,China_Direct
+DOMAIN-SUFFIX,u3.ucweb.com,China_Direct
+DOMAIN-SUFFIX,ucfly.com,China_Direct
+DOMAIN-SUFFIX,ucalc.com,China_Direct
+DOMAIN-SUFFIX,ucapp.com,China_Direct
+DOMAIN-SUFFIX,ucfiles.com,China_Direct
+DOMAIN-SUFFIX,uch5.com,China_Direct
+DOMAIN-SUFFIX,uctest.com,China_Direct
+DOMAIN-SUFFIX,uod.cn,China_Direct
+DOMAIN-SUFFIX,ucdn.cn,China_Direct
+DOMAIN-SUFFIX,ucan.25pp.com,China_Direct
+DOMAIN-SUFFIX,pp.cn,China_Direct
+DOMAIN-SUFFIX,ppclient.com,China_Direct
+
+# ===== 图虫 =====
+DOMAIN-SUFFIX,tuchong.com,China_Direct
+DOMAIN-SUFFIX,tuchong.net,China_Direct
+DOMAIN-SUFFIX,tuchongimg.com,China_Direct
+DOMAIN-SUFFIX,tuchongavatar.com,China_Direct
+DOMAIN-SUFFIX,sdkcloudapi.cn,China_Direct
+
+# ===== 佳能 & 索尼（Canon / Sony） =====
+# Camera Brands
+DOMAIN-SUFFIX,canon.com,China_Direct
+DOMAIN-SUFFIX,canon.com.cn,China_Direct
+DOMAIN-SUFFIX,canon.cn,China_Direct
+DOMAIN-SUFFIX,canon.com.hk,China_Direct
+DOMAIN-SUFFIX,canon-asia.com,China_Direct
+DOMAIN-SUFFIX,canon-europe.com,China_Direct
+
+DOMAIN-SUFFIX,sony.com,China_Direct
+DOMAIN-SUFFIX,sony.com.cn,China_Direct
+DOMAIN-SUFFIX,sony.cn,China_Direct
+DOMAIN-SUFFIX,sony.jp,China_Direct
+DOMAIN-SUFFIX,sony.net,China_Direct
+DOMAIN-SUFFIX,playstation.com,China_Direct
+DOMAIN-SUFFIX,playstation.net,China_Direct
+DOMAIN-SUFFIX,sony-asia.com,China_Direct
+DOMAIN-SUFFIX,sony-europe.com,China_Direct
+
+
+# ===== 虎牙 & 斗鱼（直播平台） =====
+# Live Platforms
+DOMAIN-SUFFIX,huya.com,China_Direct
+DOMAIN-SUFFIX,huya.com.cn,China_Direct
+DOMAIN-SUFFIX,yy.com,China_Direct
+DOMAIN-SUFFIX,duowan.com,China_Direct
+DOMAIN-SUFFIX,huyaimg.com,China_Direct
+
+DOMAIN-SUFFIX,douyu.com,China_Direct
+DOMAIN-SUFFIX,douyu.tv,China_Direct
+DOMAIN-SUFFIX,douyucdn.cn,China_Direct
+DOMAIN-SUFFIX,douyutv.com,China_Direct
+DOMAIN-SUFFIX,douyuscdn.com,China_Direct
+
+# ===== B站 =====
+# Bilibili
+DOMAIN-SUFFIX,bilibili.com,China_Direct
+DOMAIN-SUFFIX,bilibili.cn,China_Direct
+DOMAIN-SUFFIX,bilibili.tv,China_Direct
+DOMAIN-SUFFIX,bilibili.cc,China_Direct
+DOMAIN-SUFFIX,bilibili.net,China_Direct
+
+DOMAIN-SUFFIX,hdslb.com,China_Direct
+DOMAIN-SUFFIX,hdslb.net,China_Direct
+DOMAIN-SUFFIX,hdslb.cc,China_Direct
+DOMAIN-SUFFIX,hdslb.cn,China_Direct
+
+DOMAIN-SUFFIX,acgvideo.com,China_Direct
+DOMAIN-SUFFIX,acg.tv,China_Direct
+
+DOMAIN-SUFFIX,im9.com,China_Direct
+DOMAIN-SUFFIX,biliapi.com,China_Direct
+DOMAIN-SUFFIX,biliapi.net,China_Direct
+DOMAIN-SUFFIX,biligame.com,China_Direct
+DOMAIN-SUFFIX,biligame.net,China_Direct
+DOMAIN-SUFFIX,biligame.cn,China_Direct
+
+DOMAIN-SUFFIX,bilivideo.com,China_Direct
+DOMAIN-SUFFIX,bilivideo.cn,China_Direct
+
+DOMAIN-SUFFIX,biliintl.com,China_Direct
+DOMAIN-SUFFIX,biliimg.com,China_Direct
+DOMAIN-SUFFIX,bstarstatic.com,China_Direct
+DOMAIN-SUFFIX,bstarapps.com,China_Direct
+DOMAIN-SUFFIX,bstarstatic.cn,China_Direct
 
 
 # ===== 国内 CDN（已去重，只保留必要） =====
