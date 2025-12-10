@@ -9,11 +9,6 @@ DOMAIN-SUFFIX, processon.com, China_Direct
 DOMAIN-SUFFIX, axmax.cn, China_Direct
 DOMAIN-SUFFIX, aijuli.com, China_Direct                 #Ai零距离
 DOMAIN-SUFFIX, macwk.cn, China_Direct                   #Mac软件下载
-
-# --- 国内直连(工作系统) ---
-DOMAIN-KEYWORD, stage-, China_Direct
-DOMAIN-KEYWORD, ehengjian, China_Direct
-DOMAIN-SUFFIX, acc-wms.thecopeservices.com, China_Direct             #WMS生产环境
 DOMAIN-SUFFIX, tapd.cn, China_Direct
 
 # --- 无名小站（电影下载） ---
