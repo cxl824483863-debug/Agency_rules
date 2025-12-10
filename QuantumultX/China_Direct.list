@@ -15,6 +15,7 @@ DOMAIN-KEYWORD, stage-wms2.thecopeservices.com, China_Direct
 DOMAIN-KEYWORD, stage-erp.thecopeservices.com, China_Direct
 DOMAIN-KEYWORD, stage-fb-v2.thecopeservices.com, China_Direct
 DOMAIN,stage-*.thecopeservices.com,China_Direct
+URL-REGEX,https?://stage-[A-Za-z0-9\-]+\.thecopeservices\.com,China_Direct
 DOMAIN-KEYWORD, pre-wms.ehengjian.com, China_Direct
 DOMAIN-SUFFIX, acc-wms.thecopeservices.com, China_Direct             #WMS生产环境
 DOMAIN-SUFFIX, tapd.cn, China_Direct
