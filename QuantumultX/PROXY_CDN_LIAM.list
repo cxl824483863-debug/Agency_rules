@@ -25,10 +25,10 @@ DOMAIN-SUFFIX,fastly-terrarium.com,PROXY_CDN_LIAM
 DOMAIN-SUFFIX,cloudfront.net,PROXY_CDN_LIAM
 
 # Google CDN
-DOMAIN-SUFFIX,googleapis.com,PROXY_CDN_LIAM
-DOMAIN-SUFFIX,gstatic.com,PROXY_CDN_LIAM
-DOMAIN-SUFFIX,googletagmanager.com,PROXY_CDN_LIAM
-DOMAIN-SUFFIX,googlesyndication.com,PROXY_CDN_LIAM
+# DOMAIN-SUFFIX,googleapis.com,PROXY_CDN_LIAM
+# DOMAIN-SUFFIX,gstatic.com,PROXY_CDN_LIAM
+# DOMAIN-SUFFIX,googletagmanager.com,PROXY_CDN_LIAM
+# DOMAIN-SUFFIX,googlesyndication.com,PROXY_CDN_LIAM
 
 # Microsoft CDN
 DOMAIN-SUFFIX,msedge.net,PROXY_CDN_LIAM
