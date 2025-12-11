@@ -1,0 +1,10 @@
+# ============================================================
+# Author：Liam Chen
+# Create Time：2025-12-11
+# ============================================================
+
+# --- YouTube ---
+DOMAIN-SUFFIX,youtube.com,PROXY_LIAM
+DOMAIN-SUFFIX,ytimg.com,PROXY_LIAM
+DOMAIN-SUFFIX,googlevideo.com,PROXY_LIAM
+
