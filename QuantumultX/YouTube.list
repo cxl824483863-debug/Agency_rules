@@ -4,47 +4,47 @@
 # ============================================================
 
 # === YouTube Main ===
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com,YouTube
+DOMAIN-SUFFIX,youtu.be,YouTube
 
 # === YouTube API ===
-DOMAIN-SUFFIX,youtubei.googleapis.com
-DOMAIN-SUFFIX,youtube.googleapis.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,suggestqueries.google.com
+DOMAIN-SUFFIX,youtubei.googleapis.com,YouTube
+DOMAIN-SUFFIX,youtube.googleapis.com,YouTube
+DOMAIN-SUFFIX,googleapis.com,YouTube
+DOMAIN-SUFFIX,suggestqueries.google.com,YouTube
 
 # === Video Stream CDN（YouTube 视频核心） ===
-DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googlevideo.com,YouTube
 
 # === Static / Player / Thumbnails ===
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ytimg.com,YouTube
+DOMAIN-SUFFIX,ggpht.com,YouTube
+DOMAIN-SUFFIX,gstatic.com,YouTube
 
 # === Ads / Tracking（可选）===
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,g.doubleclick.net
+DOMAIN-SUFFIX,doubleclick.net,YouTube
+DOMAIN-SUFFIX,googlesyndication.com,YouTube
+DOMAIN-SUFFIX,g.doubleclick.net,YouTube
 
 # === Auth / Login ===
-DOMAIN-SUFFIX,accounts.youtube.com
-DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,accounts.youtube.com,YouTube
+DOMAIN-SUFFIX,accounts.google.com,YouTube
 
 # === YouTube Music ===
-DOMAIN-SUFFIX,music.youtube.com
-DOMAIN-SUFFIX,music.youtube.googleapis.com
+DOMAIN-SUFFIX,music.youtube.com,YouTube
+DOMAIN-SUFFIX,music.youtube.googleapis.com,YouTube
 
 # === YouTube TV ===
-DOMAIN-SUFFIX,tv.youtube.com
-DOMAIN-SUFFIX,youtubetv.l.google.com
+DOMAIN-SUFFIX,tv.youtube.com,YouTube
+DOMAIN-SUFFIX,youtubetv.l.google.com,YouTube
 
 # === YouTube Kids ===
-DOMAIN-SUFFIX,youtube-kids.appspot.com
+DOMAIN-SUFFIX,youtube-kids.appspot.com,YouTube
 
 # === App Related ===
-DOMAIN-SUFFIX,android.youtube.com
-DOMAIN-SUFFIX,clients1.google.com
-DOMAIN-SUFFIX,clients3.google.com
-DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,android.youtube.com,YouTube
+DOMAIN-SUFFIX,clients1.google.com,YouTube
+DOMAIN-SUFFIX,clients3.google.com,YouTube
+DOMAIN-SUFFIX,clients6.google.com,YouTube
 
 
