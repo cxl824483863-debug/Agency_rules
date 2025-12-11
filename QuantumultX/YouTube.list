@@ -4,7 +4,7 @@
 # ============================================================
 
 # === YouTube Main ===
-DOMAIN-SUFFIX,youtube.com
+DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,youtu.be
 
 # === YouTube API ===
