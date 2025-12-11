@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,suggestqueries.google.com
 
 # === Video Stream CDN（YouTube 视频核心） ===
-DOMAIN-SUFFIX,googlevideo.com                可能会影响gemini
+DOMAIN-SUFFIX,googlevideo.com                # 可能会影响gemini
 
 # === Static / Player / Thumbnails ===
 DOMAIN-SUFFIX,ytimg.com
