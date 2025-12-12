@@ -1,0 +1,300 @@
+# ============================================================
+# Global Website / Movie / Dev Sites Mega RULE-SET (Non-China)
+# Author：Liam Chen
+# Create Time：2025-12-06 22:32
+# ============================================================
+
+# --- 代理 ---
+DOMAIN-SUFFIX,fcba.pro,Foreign_Proxy      #肥猫
+
+# --- 矢量库 ---
+DOMAIN-SUFFIX,igoutu.cn,Foreign_Proxy
+DOMAIN-SUFFIX,icons8.com,Foreign_Proxy
+DOMAIN-KEYWORD,igoutu,Foreign_Proxy
+
+# --- 去广告 ---
+DOMAIN-SUFFIX,limbopro.com,Foreign_Proxy
+
+# --- Google 系 / Gemini 相关 ---
+# DOMAIN-SUFFIX,google.com,Foreign_Proxy
+# DOMAIN-SUFFIX,googleapis.com,Foreign_Proxy
+# DOMAIN-SUFFIX,gstatic.com,Foreign_Proxy
+# DOMAIN-SUFFIX,googleusercontent.com,Foreign_Proxy
+# DOMAIN-SUFFIX,withgoogle.com,Foreign_Proxy
+# DOMAIN-SUFFIX,deepmind.com,Foreign_Proxy
+# DOMAIN-SUFFIX,x.company,Foreign_Proxy
+
+# --- YouTube ---
+DOMAIN-SUFFIX,youtube.com,Foreign_Proxy
+DOMAIN-SUFFIX,ytimg.com,Foreign_Proxy
+DOMAIN-SUFFIX,googlevideo.com,Foreign_Proxy
+
+# --- Netflix ---
+# DOMAIN-SUFFIX,netflix.com,Foreign_Proxy
+# DOMAIN-SUFFIX,nflximg.com,Foreign_Proxy
+# DOMAIN-SUFFIX,nflxvideo.net,Foreign_Proxy
+# DOMAIN-SUFFIX,nflxso.net,Foreign_Proxy
+
+# --- Disney+ ---
+# DOMAIN-SUFFIX,disneyplus.com,Foreign_Proxy
+# DOMAIN-SUFFIX,bamgrid.com,Foreign_Proxy
+# DOMAIN-SUFFIX,disney-plus.net,Foreign_Proxy
+
+# --- HBO / Max ---
+DOMAIN-SUFFIX,hbo.com,Foreign_Proxy
+DOMAIN-SUFFIX,max.com,Foreign_Proxy
+DOMAIN-SUFFIX,hbomax.com,Foreign_Proxy
+
+# --- Amazon Prime Video ---
+DOMAIN-SUFFIX,primevideo.com,Foreign_Proxy
+DOMAIN-SUFFIX,amazonvideo.com,Foreign_Proxy
+DOMAIN-SUFFIX,media-amazon.com,Foreign_Proxy
+
+# --- Hulu ---
+DOMAIN-SUFFIX,hulu.com,Foreign_Proxy
+DOMAIN-SUFFIX,huluim.com,Foreign_Proxy
+
+# --- Apple 系 ---
+# DOMAIN-SUFFIX,apple.com,Foreign_Proxy
+# DOMAIN-SUFFIX,icloud.com,Foreign_Proxy
+# DOMAIN-SUFFIX,itunes.apple.com,Foreign_Proxy
+# DOMAIN-SUFFIX,apple-cloudkit.com,Foreign_Proxy
+
+# --- Meta 系（Instagram / Facebook） ---
+DOMAIN-SUFFIX,instagram.com,Foreign_Proxy
+DOMAIN-SUFFIX,cdninstagram.com,Foreign_Proxy
+DOMAIN-SUFFIX,facebook.com,Foreign_Proxy
+DOMAIN-SUFFIX,fbcdn.net,Foreign_Proxy
+DOMAIN-SUFFIX,whatsapp.com,Foreign_Proxy
+
+# --- Telegram ---
+# DOMAIN-SUFFIX,telegram.org,Foreign_Proxy
+# DOMAIN-SUFFIX,t.me,Foreign_Proxy
+# DOMAIN-SUFFIX,tdesktop.com,Foreign_Proxy
+
+# --- Twitter / X ---
+DOMAIN-SUFFIX,x.com,Foreign_Proxy
+DOMAIN-SUFFIX,twitter.com,Foreign_Proxy
+DOMAIN-SUFFIX,twimg.com,Foreign_Proxy
+
+# --- Reddit ---
+DOMAIN-SUFFIX,reddit.com,Foreign_Proxy
+DOMAIN-SUFFIX,redd.it,Foreign_Proxy
+DOMAIN-SUFFIX,redditstatic.com,Foreign_Proxy
+
+# --- TikTok (国际版) ---
+# DOMAIN-SUFFIX,tiktok.com,Foreign_Proxy
+# DOMAIN-SUFFIX,ttvnw.net,Foreign_Proxy
+# DOMAIN-SUFFIX,tiktokcdn.com,Foreign_Proxy
+# DOMAIN-SUFFIX,tik-tokapi.com,Foreign_Proxy
+
+# --- Twitch ---
+DOMAIN-SUFFIX,twitch.tv,Foreign_Proxy
+DOMAIN-SUFFIX,ttvnw.net,Foreign_Proxy
+
+# --- OpenAI / ChatGPT ---
+DOMAIN-SUFFIX,openai.com,Foreign_Proxy
+DOMAIN-SUFFIX,chatgpt.com,Foreign_Proxy
+DOMAIN-SUFFIX,oaistatic.com,Foreign_Proxy
+DOMAIN-SUFFIX,oaiusercontent.com,Foreign_Proxy
+
+# --- Github / Git 系 ---
+DOMAIN-SUFFIX,github.com,Foreign_Proxy
+DOMAIN-SUFFIX,githubusercontent.com,Foreign_Proxy
+DOMAIN-SUFFIX,gitlab.com,Foreign_Proxy
+DOMAIN-SUFFIX,bitbucket.org,Foreign_Proxy
+
+# --- Stack Overflow / 技术社区 ---
+DOMAIN-SUFFIX,stackoverflow.com,Foreign_Proxy
+DOMAIN-SUFFIX,stackexchange.com,Foreign_Proxy
+DOMAIN-SUFFIX,serverfault.com,Foreign_Proxy
+DOMAIN-SUFFIX,superuser.com,Foreign_Proxy
+DOMAIN-SUFFIX,askubuntu.com,Foreign_Proxy
+
+# --- 编程/学习网站 ---
+DOMAIN-SUFFIX,w3schools.com,Foreign_Proxy
+DOMAIN-SUFFIX,mdn.dev,Foreign_Proxy
+DOMAIN-SUFFIX,developer.mozilla.org,Foreign_Proxy
+DOMAIN-SUFFIX,freecodecamp.org,Foreign_Proxy
+DOMAIN-SUFFIX,codecademy.com,Foreign_Proxy
+DOMAIN-SUFFIX,geeksforgeeks.org,Foreign_Proxy
+DOMAIN-SUFFIX,tutorialspoint.com,Foreign_Proxy
+
+# --- 英文媒体 / 新闻 ---
+DOMAIN-SUFFIX,nytimes.com,Foreign_Proxy
+DOMAIN-SUFFIX,bbc.com,Foreign_Proxy
+DOMAIN-SUFFIX,cnn.com,Foreign_Proxy
+DOMAIN-SUFFIX,guardian.co.uk,Foreign_Proxy
+
+# --- 影视评分类 ---
+DOMAIN-SUFFIX,imdb.com,Foreign_Proxy
+DOMAIN-SUFFIX,imdb.to,Foreign_Proxy
+DOMAIN-SUFFIX,rottentomatoes.com,Foreign_Proxy
+DOMAIN-SUFFIX,metacritic.com,Foreign_Proxy
+DOMAIN-SUFFIX,trakt.tv,Foreign_Proxy
+DOMAIN-SUFFIX,letterboxd.com,Foreign_Proxy
+DOMAIN-SUFFIX,tmdb.org,Foreign_Proxy                       # The Movie Database
+DOMAIN-SUFFIX,themoviedb.org,Foreign_Proxy  
+DOMAIN-SUFFIX,fanart.tv,Foreign_Proxy  
+
+# --- 流媒体播放器相关 ---
+DOMAIN-SUFFIX,plex.tv,Foreign_Proxy
+DOMAIN-SUFFIX,emby.media,Foreign_Proxy
+DOMAIN-SUFFIX,jellyfin.org,Foreign_Proxy
+DOMAIN-SUFFIX,kodi.tv,Foreign_Proxy
+
+# --- 云服务 / VPS / SaaS ---
+DOMAIN-SUFFIX,cloudflare.com,Foreign_Proxy
+DOMAIN-SUFFIX,cloudfront.net,Foreign_Proxy
+DOMAIN-SUFFIX,aws.amazon.com,Foreign_Proxy
+DOMAIN-SUFFIX,azure.com,Foreign_Proxy
+DOMAIN-SUFFIX,oracle.com,Foreign_Proxy
+DOMAIN-SUFFIX,digitalocean.com,Foreign_Proxy
+DOMAIN-SUFFIX,linode.com,Foreign_Proxy
+
+# --- 邮箱 ---
+DOMAIN-SUFFIX,gmail.com,Foreign_Proxy
+DOMAIN-SUFFIX,outlook.com,Foreign_Proxy
+DOMAIN-SUFFIX,proton.me,Foreign_Proxy
+DOMAIN-SUFFIX,yahoo.com,Foreign_Proxy
+
+# --- Dropbox / Box ---
+DOMAIN-SUFFIX,dropbox.com,Foreign_Proxy
+DOMAIN-SUFFIX,box.com,Foreign_Proxy
+DOMAIN-SUFFIX,boxcdn.net,Foreign_Proxy
+
+# --- Notion ---
+DOMAIN-SUFFIX,notion.so,Foreign_Proxy
+DOMAIN-SUFFIX,notion.site,Foreign_Proxy
+DOMAIN-SUFFIX,notion-static.com,Foreign_Proxy
+
+# --- 国际常用网站 ---
+DOMAIN-SUFFIX,wikipedia.org,Foreign_Proxy
+DOMAIN-SUFFIX,wikimedia.org,Foreign_Proxy
+DOMAIN-SUFFIX,archive.org,Foreign_Proxy
+DOMAIN-SUFFIX,medium.com,Foreign_Proxy
+DOMAIN-SUFFIX,quora.com,Foreign_Proxy
+DOMAIN-SUFFIX,deepl.com,Foreign_Proxy
+DOMAIN-SUFFIX,grammarly.com,Foreign_Proxy
+DOMAIN-KEYWORD,notion,Foreign_Proxy
+
+
+
+# DOMAIN-KEYWORD,github.com,Foreign_Proxy
+# DOMAIN-KEYWORD,t.me,Foreign_Proxy
+# DOMAIN-KEYWORD,githubusercontent.com,Foreign_Proxy
+# DOMAIN-KEYWORD,speedship.com,Foreign_Proxy
+# DOMAIN-KEYWORD,rlcarriers.com,Foreign_Proxy
+# DOMAIN-KEYWORD,v2ex.com,Foreign_Proxy
+# DOMAIN-KEYWORD,greasyfork.org,Foreign_Proxy
+# DOMAIN-KEYWORD,hub.docker.com,Foreign_Proxy
+# DOMAIN-KEYWORD,reddit.com,Foreign_Proxy
+# DOMAIN-KEYWORD,x.com,Foreign_Proxy
+# DOMAIN-KEYWORD,githubassets.com,Foreign_Proxy
+# DOMAIN-KEYWORD,arcb.com,Foreign_Proxy
+# DOMAIN-KEYWORD,steamcommunity.com,Foreign_Proxy
+# DOMAIN-KEYWORD,steampowered.com,Foreign_Proxy
+# DOMAIN-KEYWORD,youtube.com,Foreign_Proxy
+# DOMAIN-KEYWORD,cloudflare.com,Foreign_Proxy
+# DOMAIN-KEYWORD,subhd.tv,Foreign_Proxy
+# DOMAIN-KEYWORD,api.themoviedb.org,Foreign_Proxy
+# DOMAIN-KEYWORD,spaceship.com,Foreign_Proxy
+# DOMAIN-KEYWORD,sms-activate.io,Foreign_Proxy
+# DOMAIN-KEYWORD,live.com,Foreign_Proxy
+# DOMAIN-KEYWORD,komari-document.pages.dev,Foreign_Proxy
+
+
+# ============================================================
+# Overseas CDN Providers - Domain Suffix Collection
+# ============================================================
+
+# Cloudflare
+DOMAIN-SUFFIX,cloudflare.com,Foreign_Proxy
+DOMAIN-SUFFIX,cloudflare.net,Foreign_Proxy
+DOMAIN-SUFFIX,cloudflareinsights.com,Foreign_Proxy
+DOMAIN-SUFFIX,cfassets.com,Foreign_Proxy
+DOMAIN-SUFFIX,cf-ipfs.com,Foreign_Proxy
+
+# Akamai
+DOMAIN-SUFFIX,akamai.com,Foreign_Proxy
+DOMAIN-SUFFIX,akamaihd.net,Foreign_Proxy
+DOMAIN-SUFFIX,akamaized.net,Foreign_Proxy
+DOMAIN-SUFFIX,edgesuite.net,Foreign_Proxy
+DOMAIN-SUFFIX,edgekey.net,Foreign_Proxy
+
+# Fastly
+DOMAIN-SUFFIX,fastly.net,Foreign_Proxy
+DOMAIN-SUFFIX,fastlylb.net,Foreign_Proxy
+DOMAIN-SUFFIX,fastly-terrarium.com,Foreign_Proxy
+
+# Amazon CloudFront
+DOMAIN-SUFFIX,cloudfront.net,Foreign_Proxy
+
+# Google CDN
+# DOMAIN-SUFFIX,googleapis.com,Foreign_Proxy
+# DOMAIN-SUFFIX,gstatic.com,Foreign_Proxy
+# DOMAIN-SUFFIX,googletagmanager.com,Foreign_Proxy
+# DOMAIN-SUFFIX,googlesyndication.com,Foreign_Proxy
+
+# Microsoft CDN
+DOMAIN-SUFFIX,msedge.net,Foreign_Proxy
+DOMAIN-SUFFIX,azureedge.net,Foreign_Proxy
+DOMAIN-SUFFIX,azurefd.net,Foreign_Proxy
+
+# StackPath / MaxCDN
+DOMAIN-SUFFIX,stackpathdns.com,Foreign_Proxy
+DOMAIN-SUFFIX,stackpathcdn.com,Foreign_Proxy
+DOMAIN-SUFFIX,maxcdn.com,Foreign_Proxy
+DOMAIN-SUFFIX,netdna-cdn.com,Foreign_Proxy
+DOMAIN-SUFFIX,netdna-ssl.com,Foreign_Proxy
+
+# Cloudflare R2 / Workers 相关
+DOMAIN-SUFFIX,workers.dev,Foreign_Proxy
+
+# CDN77
+DOMAIN-SUFFIX,cdn77.org,Foreign_Proxy
+DOMAIN-SUFFIX,cdn77.com,Foreign_Proxy
+
+# KeyCDN
+DOMAIN-SUFFIX,keycdn.com,Foreign_Proxy
+
+# BunnyCDN
+DOMAIN-SUFFIX,b-cdn.net,Foreign_Proxy
+DOMAIN-SUFFIX,bunnycdn.com,Foreign_Proxy
+
+# jsDelivr
+DOMAIN-SUFFIX,jsdelivr.net,Foreign_Proxy
+
+# CDNJS
+DOMAIN-SUFFIX,cdnjs.com,Foreign_Proxy
+
+# ImgIX（国外常用图片 CDN）
+DOMAIN-SUFFIX,imgix.net,Foreign_Proxy
+DOMAIN-SUFFIX,imgix.com,Foreign_Proxy
+
+# Firebase Hosting
+DOMAIN-SUFFIX,web.app,Foreign_Proxy
+DOMAIN-SUFFIX,firebaseapp.com,Foreign_Proxy
+
+# Cloudinary
+DOMAIN-SUFFIX,cloudinary.com,Foreign_Proxy
+
+# DigitalOcean Spaces CDN
+DOMAIN-SUFFIX,digitaloceanspaces.com,Foreign_Proxy
+
+# Wikipedia / Media CDN
+DOMAIN-SUFFIX,wikimedia.org,Foreign_Proxy
+DOMAIN-SUFFIX,wikipedia.org,Foreign_Proxy
+
+# Adobe
+DOMAIN-SUFFIX,typekit.net,Foreign_Proxy
+DOMAIN-SUFFIX,adobecdn.com,Foreign_Proxy
+
+# Shopify CDN
+DOMAIN-SUFFIX,shopify.com,Foreign_Proxy
+DOMAIN-SUFFIX,shopifycdn.com,Foreign_Proxy
+
+# SourceForge CDN
+DOMAIN-SUFFIX,sourceforge.net,Foreign_Proxy
+
+
