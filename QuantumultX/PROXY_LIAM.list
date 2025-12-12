@@ -55,10 +55,10 @@ DOMAIN-SUFFIX,hulu.com,PROXY_LIAM
 DOMAIN-SUFFIX,huluim.com,PROXY_LIAM
 
 # --- Apple 系 ---
-DOMAIN-SUFFIX,apple.com,PROXY_LIAM
-DOMAIN-SUFFIX,icloud.com,PROXY_LIAM
-DOMAIN-SUFFIX,itunes.apple.com,PROXY_LIAM
-DOMAIN-SUFFIX,apple-cloudkit.com,PROXY_LIAM
+# DOMAIN-SUFFIX,apple.com,PROXY_LIAM
+# DOMAIN-SUFFIX,icloud.com,PROXY_LIAM
+# DOMAIN-SUFFIX,itunes.apple.com,PROXY_LIAM
+# DOMAIN-SUFFIX,apple-cloudkit.com,PROXY_LIAM
 
 # --- Meta 系（Instagram / Facebook） ---
 DOMAIN-SUFFIX,instagram.com,PROXY_LIAM
