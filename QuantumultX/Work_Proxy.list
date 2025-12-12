@@ -1,0 +1,28 @@
+# ====================================
+# 工作系统代理
+# ====================================
+
+# --- ERP系统 ---
+DOMAIN,port.thecopeservices.com,Work_Proxy
+DOMAIN,erp.thecopeservices.com,Work_Proxy
+DOMAIN,fb.thecopeservices.com,Work_Proxy
+DOMAIN,fb-v2.thecopeservices.com,Work_Proxy
+DOMAIN,uc.thecopeservices.com,Work_Proxy
+DOMAIN,bi.thecopeservices.com,Work_Proxy
+DOMAIN,ship.thecopeservices.com,Work_Proxy
+
+
+# --- 卡车系统 ---
+DOMAIN-SUFFIX,hyperlining.com,Work_Proxy
+DOMAIN-SUFFIX,saia.com,Work_Proxy
+DOMAIN-SUFFIX,999865.xyz,Work_Proxy
+DOMAIN-SUFFIX,traxltl.tql.com,Work_Proxy
+DOMAIN-KEYWORD,rlcarriers,Work_Proxy
+
+# --- WMS系统 ---
+DOMAIN-SUFFIX,pro-wms.thecopeservices.com,Work_Proxy
+DOMAIN-SUFFIX,pro-wms-api.thecopeservices.com,Work_Proxy
+DOMAIN-SUFFIX,wms-cli.thecopeservices.com,Work_Proxy
+
+# --- 其他系统 ---
+DOMAIN-SUFFIX,yqn.com,Work_Proxy
