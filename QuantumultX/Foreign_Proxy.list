@@ -126,6 +126,11 @@ DOMAIN-SUFFIX,bbc.com,Foreign_Proxy
 DOMAIN-SUFFIX,cnn.com,Foreign_Proxy
 DOMAIN-SUFFIX,guardian.co.uk,Foreign_Proxy
 DOMAIN-SUFFIX,creaders.net,Foreign_Proxy        # 万维网
+DOMAIN,www.rfi.fr,Foreign_Proxy
+DOMAIN,www.dw.com,Foreign_Proxy
+DOMAIN,www.6park.com,Foreign_Proxy
+DOMAIN,zaobao.com.sg,Foreign_Proxy
+
 
 # --- 影视评分类 ---
 DOMAIN-SUFFIX,imdb.com,Foreign_Proxy
