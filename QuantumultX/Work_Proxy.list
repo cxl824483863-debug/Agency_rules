@@ -27,3 +27,88 @@ DOMAIN-SUFFIX,wms-cli.thecopeservices.com,Work_Proxy
 
 # --- 其他系统 ---
 DOMAIN-SUFFIX,yqn.com,Work_Proxy
+
+
+
+########################################
+# US COURIER / PARCEL (快递类)
+########################################
+DOMAIN-SUFFIX,usps.com,Work_Proxy
+
+# UPS
+DOMAIN-SUFFIX,ups.com,Work_Proxy
+DOMAIN-SUFFIX,upsfreight.com,Work_Proxy
+DOMAIN-SUFFIX,tforcefreight.com,Work_Proxy
+
+# FedEx
+DOMAIN-SUFFIX,fedex.com,Work_Proxy
+DOMAIN-SUFFIX,fedexfreight.fedex.com,Work_Proxy
+DOMAIN-SUFFIX,ftn.fedex.com,Work_Proxy
+DOMAIN-SUFFIX,fedexground.com,Work_Proxy
+
+# DHL
+DOMAIN-SUFFIX,dhl.com,Work_Proxy
+
+# Regional / Last Mile couriers
+DOMAIN-SUFFIX,ontrac.com,Work_Proxy
+DOMAIN-SUFFIX,lasership.com,Work_Proxy
+DOMAIN-SUFFIX,xpo.com,Work_Proxy
+
+########################################
+# WWEX GROUP (WWEX + GlobalTranz + Unishippers)
+########################################
+# WWEX
+DOMAIN-SUFFIX,wwex.com,Work_Proxy
+DOMAIN-SUFFIX,my.wwex.com,Work_Proxy
+DOMAIN-SUFFIX,api.wwex.com,Work_Proxy
+DOMAIN-SUFFIX,nt.wwex.com,Work_Proxy
+DOMAIN-SUFFIX,newtms.wwex.com,Work_Proxy
+DOMAIN-SUFFIX,tracking.wwex.com,Work_Proxy
+
+# GlobalTranz
+DOMAIN-SUFFIX,globaltranz.com,Work_Proxy
+DOMAIN-SUFFIX,apps.globaltranz.com,Work_Proxy
+DOMAIN-SUFFIX,track.globaltranz.com,Work_Proxy
+
+# Unishippers
+DOMAIN-SUFFIX,unishippers.com,Work_Proxy
+DOMAIN-SUFFIX,my.unishippers.com,Work_Proxy
+
+########################################
+# LTL / FTL – MAJOR TRUCKING COMPANIES
+########################################
+DOMAIN-SUFFIX,jbhunt.com,Work_Proxy
+DOMAIN-SUFFIX,knight-swift.com,Work_Proxy
+DOMAIN-SUFFIX,odfl.com,Work_Proxy
+DOMAIN-SUFFIX,schneider.com,Work_Proxy
+DOMAIN-SUFFIX,yrc.com,Work_Proxy
+DOMAIN-SUFFIX,estes-express.com,Work_Proxy
+DOMAIN-SUFFIX,saia.com,Work_Proxy
+DOMAIN-SUFFIX,rlcarriers.com,Work_Proxy
+DOMAIN-SUFFIX,roadrunner.com,Work_Proxy
+DOMAIN-SUFFIX,centraltransport.com,Work_Proxy
+DOMAIN-SUFFIX,daytonfreight.com,Work_Proxy
+DOMAIN-SUFFIX,dohrn.com,Work_Proxy
+
+########################################
+# SMALL / REGIONAL / NICHE TRUCKING
+########################################
+DOMAIN-SUFFIX,aaacooper.com,Work_Proxy
+DOMAIN-SUFFIX,averittexpress.com,Work_Proxy
+DOMAIN-SUFFIX,forwardair.com,Work_Proxy
+DOMAIN-SUFFIX,dependable.com,Work_Proxy
+DOMAIN-SUFFIX,newpenn.com,Work_Proxy
+DOMAIN-SUFFIX,redaway.com,Work_Proxy
+DOMAIN-SUFFIX,abfs.com,Work_Proxy
+DOMAIN-SUFFIX,abf.com,Work_Proxy
+DOMAIN-SUFFIX,daylighttransport.com,Work_Proxy
+DOMAIN-SUFFIX,customco.com,Work_Proxy
+DOMAIN-SUFFIX,cevalogistics.com,Work_Proxy
+DOMAIN-SUFFIX,rlglobal.com,Work_Proxy
+DOMAIN-SUFFIX,landstar.com,Work_Proxy
+DOMAIN-SUFFIX,wardtlc.com,Work_Proxy
+DOMAIN-SUFFIX,cfidrive.com,Work_Proxy
+
+
+
+
