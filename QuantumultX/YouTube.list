@@ -8,13 +8,13 @@ DOMAIN-SUFFIX,youtube.com,YouTube
 DOMAIN-SUFFIX,youtu.be,YouTube
 
 # === YouTube API ===
-DOMAIN-SUFFIX,youtubei.googleapis.com,YouTube
-DOMAIN-SUFFIX,youtube.googleapis.com,YouTube
-DOMAIN-SUFFIX,googleapis.com,YouTube
-DOMAIN-SUFFIX,suggestqueries.google.com,YouTube
+# DOMAIN-SUFFIX,youtubei.googleapis.com,YouTube
+# DOMAIN-SUFFIX,youtube.googleapis.com,YouTube
+# DOMAIN-SUFFIX,googleapis.com,YouTube
+# DOMAIN-SUFFIX,suggestqueries.google.com,YouTube
 
 # === Video Stream CDN（YouTube 视频核心） ===
-DOMAIN-SUFFIX,googlevideo.com,YouTube
+# DOMAIN-SUFFIX,googlevideo.com,YouTube
 
 # === Static / Player / Thumbnails ===
 DOMAIN-SUFFIX,ytimg.com,YouTube
@@ -22,8 +22,8 @@ DOMAIN-SUFFIX,ggpht.com,YouTube
 DOMAIN-SUFFIX,gstatic.com,YouTube
 
 # === Ads / Tracking（可选）===
+# DOMAIN-SUFFIX,googlesyndication.com,YouTube
 DOMAIN-SUFFIX,doubleclick.net,YouTube
-DOMAIN-SUFFIX,googlesyndication.com,YouTube
 DOMAIN-SUFFIX,g.doubleclick.net,YouTube
 
 # === Auth / Login ===
@@ -35,16 +35,18 @@ DOMAIN-SUFFIX,music.youtube.com,YouTube
 DOMAIN-SUFFIX,music.youtube.googleapis.com,YouTube
 
 # === YouTube TV ===
+#DOMAIN-SUFFIX,youtubetv.l.google.com,YouTube
 DOMAIN-SUFFIX,tv.youtube.com,YouTube
-DOMAIN-SUFFIX,youtubetv.l.google.com,YouTube
+
 
 # === YouTube Kids ===
 DOMAIN-SUFFIX,youtube-kids.appspot.com,YouTube
 
 # === App Related ===
+# DOMAIN-SUFFIX,clients1.google.com,YouTube
+# DOMAIN-SUFFIX,clients3.google.com,YouTube
+# DOMAIN-SUFFIX,clients6.google.com,YouTube
 DOMAIN-SUFFIX,android.youtube.com,YouTube
-DOMAIN-SUFFIX,clients1.google.com,YouTube
-DOMAIN-SUFFIX,clients3.google.com,YouTube
-DOMAIN-SUFFIX,clients6.google.com,YouTube
+
 
 
