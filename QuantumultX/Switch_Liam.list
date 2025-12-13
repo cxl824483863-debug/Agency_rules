@@ -1,31 +1,5 @@
 # ====================================================
-# 小红书规则
+# 
 # ====================================================
 
-# Xiaohongshu / 小红书
-DOMAIN-SUFFIX,xiaohongshu.com,Switch_Liam
-DOMAIN-SUFFIX,xiaohongshu.net,Switch_Liam
-DOMAIN-SUFFIX,xhslink.com,Switch_Liam
-DOMAIN-SUFFIX,xhsapp.com,Switch_Liam
-DOMAIN-SUFFIX,xhscdn.com,Switch_Liam
-DOMAIN-SUFFIX,xhs.com,Switch_Liam
-DOMAIN-SUFFIX,notes-aliyun.com,Switch_Liam   # 官方阿里云资源域
-DOMAIN-SUFFIX,redcdn.net,Switch_Liam
-DOMAIN-SUFFIX,redbook.com,Switch_Liam        # 少数旧版本使用
-DOMAIN-SUFFIX,redapi.cn,Switch_Liam          # API 线路（部分地区）
-DOMAIN-SUFFIX,redbook.io,Switch_Liam         # 历史域名
-DOMAIN-SUFFIX,maimai.cn,Switch_Liam          # 登录链路依赖（部分情况）
 
-# 小红书 CDN / 图片 / 视频资源
-DOMAIN-SUFFIX,byteimg.com,Switch_Liam
-DOMAIN-SUFFIX,bytedance.net,Switch_Liam
-DOMAIN-SUFFIX,ixigua.com,Switch_Liam        # 视频底层可能走火山
-DOMAIN-SUFFIX,pstatp.com,Switch_Liam
-DOMAIN-SUFFIX,alicdn.com,Switch_Liam        # 阿里云图片资源
-DOMAIN-SUFFIX,aliyuncs.com,Switch_Liam
-
-# 兜底关键字
-DOMAIN-KEYWORD,xhs,Switch_Liam
-DOMAIN-KEYWORD,xiaohongshu,Switch_Liam
-DOMAIN-KEYWORD,redbook,Switch_Liam
-DOMAIN-KEYWORD,redcdn,Switch_Liam
