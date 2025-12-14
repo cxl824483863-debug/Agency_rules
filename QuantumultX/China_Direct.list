@@ -318,7 +318,6 @@ DOMAIN-SUFFIX,bstarapps.com,China_Direct
 DOMAIN-SUFFIX,bstarstatic.cn,China_Direct
 
 
-
 # ===== 国内 CDN（已去重，只保留必要） =====
 DOMAIN-SUFFIX,alicdn.com,China_Direct
 DOMAIN-SUFFIX,alipayobjects.com,China_Direct
@@ -335,3 +334,12 @@ DOMAIN-SUFFIX,tencent-cloud.net,China_Direct
 DOMAIN-SUFFIX,ksyuncs.com,China_Direct
 DOMAIN-SUFFIX,hc-cdn.com,China_Direct
 DOMAIN-SUFFIX,qn-cdn.com,China_Direct
+
+# ===== WPS =====
+DOMAIN-SUFFIX,wpscdn.com,China_Direct
+DOMAIN-SUFFIX,wps.cn,China_Direct
+DOMAIN-SUFFIX,wps.com,China_Direct
+
+
+
+
