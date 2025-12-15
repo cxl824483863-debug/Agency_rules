@@ -1,5 +1,30 @@
-# ====================================================
-# 
-# ====================================================
+# =====================================
+# Author：Lima Chen
+# Create Date：2025-12-15
+# Remark：用于需要随时切换的代理
+# =====================================
 
 
+# ----- XUNLEI / 迅雷 -----
+DOMAIN-SUFFIX,xunlei.com,Switch_Liam
+DOMAIN-SUFFIX,xlisp.net,Switch_Liam
+DOMAIN-SUFFIX,xlcdn.com,Switch_Liam
+DOMAIN-SUFFIX,xlpan.com,Switch_Liam
+DOMAIN-SUFFIX,xlpcdn.com,Switch_Liam
+DOMAIN-SUFFIX,xlmc.sandai.net,Switch_Liam
+DOMAIN-SUFFIX,sandai.net,Switch_Liam
+
+# Thunder CDN / Acceleration
+DOMAIN-SUFFIX,thunderurl.com,Switch_Liam
+DOMAIN-SUFFIX,thunderres.com,Switch_Liam
+DOMAIN-SUFFIX,thundercdn.com,Switch_Liam
+
+# API / Account
+DOMAIN-SUFFIX,account.xunlei.com,Switch_Liam
+DOMAIN-SUFFIX,api.xunlei.com,Switch_Liam
+DOMAIN-SUFFIX,config.xunlei.com,Switch_Liam
+DOMAIN-SUFFIX,upgrade.xunlei.com,Switch_Liam
+
+# Pic / Static
+DOMAIN-SUFFIX,img.xunlei.com,Switch_Liam
+DOMAIN-SUFFIX,static.xunlei.com,Switch_Liam
