@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,api21-h2.tiktokv.com,TikTok
 DOMAIN-SUFFIX,api22-h2.tiktokv.com,TikTok
 DOMAIN-SUFFIX,ib.tiktokv.com,TikTok
 DOMAIN-SUFFIX,log.tiktokv.com,TikTok
+DOMAIN-SUFFIX,mchost.guru,TikTok
 
 # ---- TikTok - Web / Open API ----
 DOMAIN-SUFFIX,open-api.tiktok.com,TikTok
@@ -51,5 +52,8 @@ DOMAIN-SUFFIX,verification.us.tiktok.com,TikTok
 DOMAIN-SUFFIX,musical.ly,TikTok
 DOMAIN-SUFFIX,api2.musical.ly,TikTok
 DOMAIN-SUFFIX,log2.musical.ly,TikTok
+
+
+
 
 
