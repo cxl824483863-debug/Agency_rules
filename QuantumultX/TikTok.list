@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,musical.ly,TikTok
 DOMAIN-SUFFIX,api2.musical.ly,TikTok
 DOMAIN-SUFFIX,log2.musical.ly,TikTok
 
-
-
+# ---- TikTok 兜底 ----
+DOMAIN-KEYWORD,tiktok,TikTok
 
 
