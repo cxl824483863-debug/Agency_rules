@@ -270,5 +270,6 @@ DOMAIN-SUFFIX,shopifycdn.com,Foreign_Proxy
 # SourceForge CDN
 DOMAIN-SUFFIX,sourceforge.net,Foreign_Proxy
 
-
+# 根据IP走代理
+GEOIP,US,Foreign_Proxy
 
