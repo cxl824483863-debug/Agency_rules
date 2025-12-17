@@ -77,7 +77,7 @@ DOMAIN-SUFFIX,tiktok.com,Foreign_Proxy
 DOMAIN-SUFFIX,ttvnw.net,Foreign_Proxy
 DOMAIN-SUFFIX,tiktokcdn.com,Foreign_Proxy
 DOMAIN-SUFFIX,tik-tokapi.com,Foreign_Proxy
-DOMAIN-KEYWORD,tokapi,Foreign_Proxy
+DOMAIN-KEYWORD,tiktok,Foreign_Proxy
 
 # --- Twitch ---
 DOMAIN-SUFFIX,twitch.tv,Foreign_Proxy
