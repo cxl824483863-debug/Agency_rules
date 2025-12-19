@@ -7,9 +7,10 @@
 # --- 其他 ---
 DOMAIN-SUFFIX,unpkg.com,Foreign_Proxy
 DOMAIN-SUFFIX,tigress.cc,Foreign_Proxy
+DOMAIN-KEYWORD,meituge,Foreign_Proxy             # 美图阁
 
 # --- cursor ---
-DOMAIN-KEYWORD,cursor,Foreign_Proxy
+DOMAIN-KEYWORD,cursor,Foreign_Proxy              # cursor
 
 # --- 矢量库 ---
 DOMAIN-SUFFIX,igoutu.cn,Foreign_Proxy
@@ -29,10 +30,11 @@ DOMAIN-SUFFIX,limbopro.com,Foreign_Proxy
 # DOMAIN-SUFFIX,x.company,Foreign_Proxy
 
 # --- Netflix ---
-# DOMAIN-SUFFIX,netflix.com,Foreign_Proxy
-# DOMAIN-SUFFIX,nflximg.com,Foreign_Proxy
-# DOMAIN-SUFFIX,nflxvideo.net,Foreign_Proxy
-# DOMAIN-SUFFIX,nflxso.net,Foreign_Proxy
+DOMAIN-SUFFIX,netflix.com,Foreign_Proxy
+DOMAIN-SUFFIX,nflximg.com,Foreign_Proxy
+DOMAIN-SUFFIX,nflxvideo.net,Foreign_Proxy
+DOMAIN-SUFFIX,nflxso.net,Foreign_Proxy
+DOMAIN-KEYWORD,Netflix,Foreign_Proxy
 
 # --- Disney+ ---
 # DOMAIN-SUFFIX,disneyplus.com,Foreign_Proxy
@@ -65,11 +67,16 @@ DOMAIN-SUFFIX,cdninstagram.com,Foreign_Proxy
 DOMAIN-SUFFIX,facebook.com,Foreign_Proxy
 DOMAIN-SUFFIX,fbcdn.net,Foreign_Proxy
 DOMAIN-SUFFIX,whatsapp.com,Foreign_Proxy
+DOMAIN-KEYWORD,Instagram,Foreign_Proxy
+DOMAIN-KEYWORD,Facebook,Foreign_Proxy
+
 
 # --- Twitter / X ---
 DOMAIN-SUFFIX,x.com,Foreign_Proxy
 DOMAIN-SUFFIX,twitter.com,Foreign_Proxy
 DOMAIN-SUFFIX,twimg.com,Foreign_Proxy
+DOMAIN-KEYWORD,Twitter,Foreign_Proxy
+
 
 # --- Reddit ---
 DOMAIN-SUFFIX,reddit.com,Foreign_Proxy
@@ -111,6 +118,7 @@ DOMAIN-SUFFIX,codecademy.com,Foreign_Proxy
 DOMAIN-SUFFIX,geeksforgeeks.org,Foreign_Proxy
 DOMAIN-SUFFIX,tutorialspoint.com,Foreign_Proxy
 
+
 # --- 英文媒体 / 新闻 ---
 DOMAIN-SUFFIX,nytimes.com,Foreign_Proxy
 DOMAIN-SUFFIX,bbc.com,Foreign_Proxy
@@ -126,7 +134,6 @@ DOMAIN-SUFFIX,8world.com,Foreign_Proxy
 DOMAIN-KEYWORD,cnbeta.com,Foreign_Proxy
 
 
-
 # --- 影视评分类 ---
 DOMAIN-SUFFIX,imdb.com,Foreign_Proxy
 DOMAIN-SUFFIX,imdb.to,Foreign_Proxy
@@ -138,11 +145,13 @@ DOMAIN-SUFFIX,tmdb.org,Foreign_Proxy                       # The Movie Database
 DOMAIN-SUFFIX,themoviedb.org,Foreign_Proxy  
 DOMAIN-SUFFIX,fanart.tv,Foreign_Proxy  
 
+
 # --- 流媒体播放器相关 ---
 DOMAIN-SUFFIX,plex.tv,Foreign_Proxy
 DOMAIN-SUFFIX,emby.media,Foreign_Proxy
 DOMAIN-SUFFIX,jellyfin.org,Foreign_Proxy
 DOMAIN-SUFFIX,kodi.tv,Foreign_Proxy
+
 
 # --- 云服务 / VPS / SaaS ---
 DOMAIN-SUFFIX,cloudflare.com,Foreign_Proxy
