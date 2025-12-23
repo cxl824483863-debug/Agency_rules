@@ -4,31 +4,31 @@
 # ==============================
 
 # ===== Soul Core =====
-DOMAIN-SUFFIX,soulapp.cn
+DOMAIN-SUFFIX,soulapp.cn,Switch_Liam
 
 # ===== API / IM =====
-DOMAIN,api.soulapp.cn
-DOMAIN,api-hl.soulapp.cn
-DOMAIN,api-bj.soulapp.cn
-DOMAIN,api-sh.soulapp.cn
-DOMAIN,im.soulapp.cn
-DOMAIN,ws.soulapp.cn
+DOMAIN,api.soulapp.cn,Switch_Liam
+DOMAIN,api-hl.soulapp.cn,Switch_Liam
+DOMAIN,api-bj.soulapp.cn,Switch_Liam
+DOMAIN,api-sh.soulapp.cn,Switch_Liam
+DOMAIN,im.soulapp.cn,Switch_Liam
+DOMAIN,ws.soulapp.cn,Switch_Liam
 
 # ===== Media =====
-DOMAIN,img.soulapp.cn
-DOMAIN,static.soulapp.cn
-DOMAIN,res.soulapp.cn
+DOMAIN,img.soulapp.cn,Switch_Liam
+DOMAIN,static.soulapp.cn,Switch_Liam
+DOMAIN,res.soulapp.cn,Switch_Liam
 
 # ===== Aliyun OSS / CDN =====
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncs.com,Switch_Liam
+DOMAIN-SUFFIX,alicdn.com,Switch_Liam
 
 # ===== Push =====
-DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.cn,Switch_Liam
 
 # ===== Analytics =====
-DOMAIN-SUFFIX,sensorsdata.cn
-DOMAIN-SUFFIX,sensorsdata.io
-DOMAIN-SUFFIX,umeng.com
-DOMAIN-SUFFIX,umengcloud.com
-DOMAIN,bugly.qq.com
+DOMAIN-SUFFIX,sensorsdata.cn,Switch_Liam
+DOMAIN-SUFFIX,sensorsdata.io,Switch_Liam
+DOMAIN-SUFFIX,umeng.com,Switch_Liam
+DOMAIN-SUFFIX,umengcloud.com,Switch_Liam
+DOMAIN,bugly.qq.com,Switch_Liam
