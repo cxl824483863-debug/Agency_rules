@@ -20,8 +20,8 @@ DOMAIN,static.soulapp.cn,Switch_Liam
 DOMAIN,res.soulapp.cn,Switch_Liam
 
 # ===== Aliyun OSS / CDN =====
-#DOMAIN-SUFFIX,aliyuncs.com,Switch_Liam
-#DOMAIN-SUFFIX,alicdn.com,Switch_Liam
+# DOMAIN-SUFFIX,aliyuncs.com,Switch_Liam
+# DOMAIN-SUFFIX,alicdn.com,Switch_Liam
 
 # ===== Push =====
 DOMAIN-SUFFIX,jpush.cn,Switch_Liam
