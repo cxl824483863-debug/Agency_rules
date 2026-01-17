@@ -1,10 +1,14 @@
 /**
- * Egern - TMDB 剧集更新监控（cron）
+ * TMDB 剧集更新 Panel（Egern 专用）
  */
 
 const TMDB_API_KEY = "92e05285c9b611b728e963fc7f3bb96b";
 const TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MmUwNTI4NWM5YjYxMWI3MjhlOTYzZmM3ZjNiYjk2YiIsIm5iZiI6MTc2ODQwMDcyMi42MTc5OTk4LCJzdWIiOiI2OTY3YTc1MmVhZjg5YzIwMmE4NjY1NDMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.crwmHTGpE_x5azP_O2lx6BaJt74Gk900XcR2A9Fvml4";
 
+/**
+ * 追剧列表
+ * category 用于面板分类展示
+ */
 const SHOWS = [
   { id: 106379, name: "辐射", category: "美剧" },
   { id: 101172, name: "吞噬星空", category: "国漫" },
@@ -17,7 +21,7 @@ const SHOWS = [
 
 const UPCOMING_DAYS = 7;
 
-// ================= utils =================
+// =============== utils ===============
 function httpGet(url) {
   return new Promise(resolve => {
     $httpClient.get(
@@ -31,7 +35,7 @@ function httpGet(url) {
       },
       (err, resp, body) => {
         if (err || !resp || resp.status !== 200) {
-          resolve(null); // ❗️失败直接跳过
+          resolve(null);
         } else {
           resolve(body);
         }
@@ -44,7 +48,7 @@ function today() {
   return new Date().toISOString().slice(0, 10);
 }
 
-function daysBetween(a, b) {
+function daysDiff(a, b) {
   return Math.ceil((new Date(b) - new Date(a)) / 86400000);
 }
 
@@ -53,7 +57,7 @@ function cnDate(d) {
   return `${x.getMonth() + 1}月${x.getDate()}日`;
 }
 
-// ================= main =================
+// =============== main ===============
 (async () => {
   const todayStr = today();
 
@@ -61,14 +65,14 @@ function cnDate(d) {
   const todayUpcoming = [];
   const future = [];
 
-  // ✅ 并发请求
-  const requests = SHOWS.map(s =>
+  // 并发请求 TMDB
+  const tasks = SHOWS.map(s =>
     httpGet(
       `https://api.themoviedb.org/3/tv/${s.id}?api_key=${TMDB_API_KEY}&language=zh-CN`
     ).then(body => ({ meta: s, body }))
   );
 
-  const results = await Promise.all(requests);
+  const results = await Promise.all(tasks);
 
   results.forEach(r => {
     if (!r.body) return;
@@ -98,7 +102,7 @@ function cnDate(d) {
       // 即将更新
       if (show.next_episode_to_air) {
         const e = show.next_episode_to_air;
-        const d = daysBetween(todayStr, e.air_date);
+        const d = daysDiff(todayStr, e.air_date);
 
         const item = {
           ...base,
@@ -118,43 +122,45 @@ function cnDate(d) {
     } catch (_) {}
   });
 
-  // 👉 按更新日期排序
+  // 按即将更新日期排序
   future.sort((a, b) => a.d - b.d);
 
-  // ================= notify =================
-  let msg = "";
+  // =============== panel content ===============
+  let content = "";
 
   if (todayUpdated.length) {
-    msg += "🎬 今日已更新\n";
+    content += "🎬 今日已更新\n";
     todayUpdated.forEach(i => {
-      msg += `\n【${i.name}｜${i.category}】\n`;
-      msg += `S${i.s}E${i.e} ${i.t}\n`;
-      msg += `⭐${i.rating} 🔥${i.popularity}\n`;
+      content += `【${i.name}｜${i.category}】\n`;
+      content += `S${i.s}E${i.e} ${i.t}\n`;
+      content += `⭐${i.rating} 🔥${i.popularity}\n\n`;
     });
-    msg += "\n";
   }
 
   if (todayUpcoming.length) {
-    msg += "⏰ 今日即将更新\n";
+    content += "⏰ 今日即将更新\n";
     todayUpcoming.forEach(i => {
-      msg += `\n【${i.name}｜${i.category}】\n`;
-      msg += `S${i.s}E${i.e} ${i.t}\n`;
+      content += `【${i.name}｜${i.category}】\n`;
+      content += `S${i.s}E${i.e} ${i.t}\n\n`;
     });
-    msg += "\n";
   }
 
   if (future.length) {
-    msg += "📅 即将更新\n";
+    content += "📅 即将更新\n";
     future.forEach(i => {
       const t = i.d === 1 ? "明天" : `${i.d}天后`;
-      msg += `\n【${i.name}｜${i.category}】${t}\n`;
-      msg += `S${i.s}E${i.e} · ${cnDate(i.ad)}\n`;
-      msg += `⭐${i.rating} 🔥${i.popularity}\n`;
+      content += `【${i.name}｜${i.category}】${t}\n`;
+      content += `S${i.s}E${i.e} · ${cnDate(i.ad)}\n`;
+      content += `⭐${i.rating} 🔥${i.popularity}\n\n`;
     });
   }
 
-  if (!msg) msg = "近期无剧集更新 😴";
+  if (!content) content = "近期暂无剧集更新 😴";
 
-  $notification.post("📺 TMDB 剧集更新", cnDate(todayStr), msg.trim());
-  $done();
+  $done({
+    title: "📺 追剧更新",
+    content: content.trim(),
+    icon: "tv",
+    "icon-color": "#ff9500"
+  });
 })();
