@@ -25,15 +25,28 @@ const SHOW_UPCOMING_DAYS = 7;
 // ========== 配置区结束 ==========
 
 // ================= 工具函数 =================
-function getTVShowInfo(id) {
-  return $task.fetch({
-    url: `https://api.themoviedb.org/3/tv/${id}?api_key=${TMDB_API_KEY}&language=zh-CN`,
-    headers: {
-      Authorization: `Bearer ${TMDB_TOKEN}`,
-      Accept: "application/json"
-    },
-    timeout: 15000
+function httpGet(url) {
+  return new Promise((resolve, reject) => {
+    $httpClient.get(
+      {
+        url,
+        headers: {
+          Authorization: `Bearer ${TMDB_TOKEN}`,
+          Accept: "application/json"
+        }
+      },
+      (err, resp, body) => {
+        if (err) reject(err);
+        else resolve({ statusCode: resp.status, body });
+      }
+    );
   });
+}
+
+function getTVShowInfo(id) {
+  return httpGet(
+    `https://api.themoviedb.org/3/tv/${id}?api_key=${TMDB_API_KEY}&language=zh-CN`
+  );
 }
 
 function normalizeShow(show, meta) {
@@ -118,17 +131,12 @@ Promise.all(MONITOR_SHOWS.map(s => getTVShowInfo(s.id)))
       }
     });
 
-    // ===== 排序：热度 → 评分 =====
-    // ===== 排序：更新日期 → 热度 → 评分 =====
-updates.futureUpdates.sort((a, b) => {
-  if (a.daysUntil !== b.daysUntil) {
-    return a.daysUntil - b.daysUntil;   // 日期近的排前面
-  }
-  if (b.popularity !== a.popularity) {
-    return b.popularity - a.popularity; // 同一天按热度
-  }
-  return b.rating - a.rating;           // 再按评分
-});
+    // ===== 排序：日期 → 热度 → 评分 =====
+    updates.futureUpdates.sort((a, b) => {
+      if (a.daysUntil !== b.daysUntil) return a.daysUntil - b.daysUntil;
+      if (b.popularity !== a.popularity) return b.popularity - a.popularity;
+      return b.rating - a.rating;
+    });
 
     // ===== 分类分组 =====
     const grouped = {};
@@ -165,7 +173,6 @@ updates.futureUpdates.sort((a, b) => {
       msg += "\n";
     }
 
-    // ===== 即将更新（详细）=====
     if (updates.futureUpdates.length) {
       msg += "📅 即将更新\n";
       updates.futureUpdates.forEach(i => {
@@ -177,8 +184,7 @@ updates.futureUpdates.sort((a, b) => {
       });
       msg += "\n";
     }
-/*
-    // ===== 分类速览 =====
+
     if (Object.keys(grouped).length) {
       msg += "🗂️ 分类速览\n";
       Object.keys(grouped).forEach(cat => {
@@ -189,10 +195,10 @@ updates.futureUpdates.sort((a, b) => {
         });
       });
     }
-*/
+
     if (!msg) msg = "今日暂无剧集更新 😴";
 
-    $notify(
+    $notification.post(
       total ? `📺 剧集更新（${total}集）` : "📺 剧集更新",
       formatDateCN(todayStr),
       msg.trim()
@@ -201,6 +207,6 @@ updates.futureUpdates.sort((a, b) => {
     $done();
   })
   .catch(err => {
-    $notify("TMDB 剧集更新", "请求失败", String(err));
+    $notification.post("TMDB 剧集更新", "请求失败", String(err));
     $done();
   });
